@@ -8,7 +8,7 @@ Dependncies, API, and code editors:
 - [OMDB API](https://www.omdbapi.com/)
 - [Scrimba](https://scrimba.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Github Copilot](https://copilot.github.com/)
+- [Github Copilot](https://copilot.github.com/) - For this Readme.md
 
 How to start it up/commands:
 
