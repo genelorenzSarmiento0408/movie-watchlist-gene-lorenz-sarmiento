@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>Find your film</h1>
+        <a href="./watchlist.html">My watchlist</a>
+      </div>
+      <form id="form">
+        <input
+          type="text"
+          placeholder="Search for a movie"
+          class="search"
+          id="search"
+          autocomplete="off"
+        />
+        <button>Search</button>
+      </form>
+    </header>
+    <main>
+      <div class="selections" id="selections">
+        <img src="movie-icon.png" />
+        <h2>Start exploring</h2>
+      </div>
+      <div class="watchlist-notification" id="watchlist-notification"></div>
+    </main>
+    <footer>
+      <p>Created with &#10084; by Gene Lorenz Sarmiento</p>
+    </footer>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
